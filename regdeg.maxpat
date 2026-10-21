@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 134.0, 1465.0, 705.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -64,75 +64,6 @@
 			}
 , 			{
 				"box" : 				{
-					"basictuning" : 440,
-					"clipheight" : 50.355942368507385,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Goober/Downloads/Rihanna - Shut Up And Drive.wav",
-								"filename" : "Rihanna - Shut Up And Drive.wav",
-								"filekind" : "audiofile",
-								"id" : "u400000379",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-9",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1055.421725749969482, 188.322028815746307, 374.576253771781921, 51.355942368507385 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"saved_attribute_attributes" : 					{
-						"candicane2" : 						{
-							"expression" : ""
-						}
-,
-						"candicane3" : 						{
-							"expression" : ""
-						}
-,
-						"candicane4" : 						{
-							"expression" : ""
-						}
-,
-						"candicane5" : 						{
-							"expression" : ""
-						}
-,
-						"candicane6" : 						{
-							"expression" : ""
-						}
-,
-						"candicane7" : 						{
-							"expression" : ""
-						}
-,
-						"candicane8" : 						{
-							"expression" : ""
-						}
-
-					}
-,
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -149,7 +80,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 34.0, 77.0, 1639.0, 802.0 ],
+						"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -545,7 +476,7 @@
 
 											}
  ],
-										"originid" : "pat-223"
+										"originid" : "pat-16"
 									}
 ,
 									"patching_rect" : [ 1783.077093124389648, 615.0, 105.0, 22.0 ],
@@ -1328,7 +1259,7 @@
 
 																			}
  ],
-																		"originid" : "pat-229"
+																		"originid" : "pat-24"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 398.5, 103.0, 22.0 ],
@@ -1694,7 +1625,7 @@
 
 																			}
  ],
-																		"originid" : "pat-231"
+																		"originid" : "pat-26"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 398.5, 116.0, 22.0 ],
@@ -1908,7 +1839,7 @@
 
 																			}
  ],
-																		"originid" : "pat-233"
+																		"originid" : "pat-28"
 																	}
 ,
 																	"patching_rect" : [ 155.0, 398.5, 103.0, 22.0 ],
@@ -2189,7 +2120,7 @@
 
 																			}
  ],
-																		"originid" : "pat-235"
+																		"originid" : "pat-30"
 																	}
 ,
 																	"patching_rect" : [ 395.0, 180.0, 134.0, 22.0 ],
@@ -2457,7 +2388,7 @@
 
 																			}
  ],
-																		"originid" : "pat-237"
+																		"originid" : "pat-32"
 																	}
 ,
 																	"patching_rect" : [ 253.0, 180.0, 134.0, 22.0 ],
@@ -2823,7 +2754,7 @@
 
 																			}
  ],
-																		"originid" : "pat-239"
+																		"originid" : "pat-34"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 273.5, 116.0, 22.0 ],
@@ -3037,7 +2968,7 @@
 
 																			}
  ],
-																		"originid" : "pat-241"
+																		"originid" : "pat-36"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 274.5, 103.0, 22.0 ],
@@ -3317,7 +3248,7 @@
 
 															}
  ],
-														"originid" : "pat-227"
+														"originid" : "pat-22"
 													}
 ,
 													"patching_rect" : [ 448.0, 218.0, 125.0, 22.0 ],
@@ -3708,7 +3639,7 @@
 
 																			}
  ],
-																		"originid" : "pat-245"
+																		"originid" : "pat-40"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 398.5, 103.0, 22.0 ],
@@ -4074,7 +4005,7 @@
 
 																			}
  ],
-																		"originid" : "pat-247"
+																		"originid" : "pat-42"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 398.5, 116.0, 22.0 ],
@@ -4288,7 +4219,7 @@
 
 																			}
  ],
-																		"originid" : "pat-249"
+																		"originid" : "pat-44"
 																	}
 ,
 																	"patching_rect" : [ 155.0, 398.5, 103.0, 22.0 ],
@@ -4569,7 +4500,7 @@
 
 																			}
  ],
-																		"originid" : "pat-251"
+																		"originid" : "pat-46"
 																	}
 ,
 																	"patching_rect" : [ 395.0, 180.0, 134.0, 22.0 ],
@@ -4837,7 +4768,7 @@
 
 																			}
  ],
-																		"originid" : "pat-253"
+																		"originid" : "pat-48"
 																	}
 ,
 																	"patching_rect" : [ 253.0, 180.0, 134.0, 22.0 ],
@@ -5203,7 +5134,7 @@
 
 																			}
  ],
-																		"originid" : "pat-255"
+																		"originid" : "pat-50"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 273.5, 116.0, 22.0 ],
@@ -5417,7 +5348,7 @@
 
 																			}
  ],
-																		"originid" : "pat-257"
+																		"originid" : "pat-52"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 274.5, 103.0, 22.0 ],
@@ -5697,7 +5628,7 @@
 
 															}
  ],
-														"originid" : "pat-243"
+														"originid" : "pat-38"
 													}
 ,
 													"patching_rect" : [ 59.0, 218.0, 125.0, 22.0 ],
@@ -5829,7 +5760,7 @@
 
 											}
  ],
-										"originid" : "pat-225"
+										"originid" : "pat-20"
 									}
 ,
 									"patching_rect" : [ 445.0, 221.0, 151.0, 22.0 ],
@@ -6252,7 +6183,7 @@
 
 							}
  ],
-						"originid" : "pat-221"
+						"originid" : "pat-8"
 					}
 ,
 					"patching_rect" : [ 1115.662691831588745, 356.996733844280243, 162.0, 22.0 ],
@@ -6800,7 +6731,7 @@
 
 											}
  ],
-										"originid" : "pat-173"
+										"originid" : "pat-56"
 									}
 ,
 									"patching_rect" : [ 730.0, 601.0, 105.0, 22.0 ],
@@ -7223,7 +7154,7 @@
 
 																			}
  ],
-																		"originid" : "pat-179"
+																		"originid" : "pat-62"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 398.5, 103.0, 22.0 ],
@@ -7589,7 +7520,7 @@
 
 																			}
  ],
-																		"originid" : "pat-181"
+																		"originid" : "pat-64"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 398.5, 116.0, 22.0 ],
@@ -7803,7 +7734,7 @@
 
 																			}
  ],
-																		"originid" : "pat-183"
+																		"originid" : "pat-66"
 																	}
 ,
 																	"patching_rect" : [ 155.0, 398.5, 103.0, 22.0 ],
@@ -8084,7 +8015,7 @@
 
 																			}
  ],
-																		"originid" : "pat-185"
+																		"originid" : "pat-68"
 																	}
 ,
 																	"patching_rect" : [ 395.0, 180.0, 134.0, 22.0 ],
@@ -8352,7 +8283,7 @@
 
 																			}
  ],
-																		"originid" : "pat-187"
+																		"originid" : "pat-70"
 																	}
 ,
 																	"patching_rect" : [ 253.0, 180.0, 134.0, 22.0 ],
@@ -8718,7 +8649,7 @@
 
 																			}
  ],
-																		"originid" : "pat-189"
+																		"originid" : "pat-72"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 273.5, 116.0, 22.0 ],
@@ -8932,7 +8863,7 @@
 
 																			}
  ],
-																		"originid" : "pat-191"
+																		"originid" : "pat-74"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 274.5, 103.0, 22.0 ],
@@ -9212,7 +9143,7 @@
 
 															}
  ],
-														"originid" : "pat-177"
+														"originid" : "pat-60"
 													}
 ,
 													"patching_rect" : [ 448.0, 218.0, 125.0, 22.0 ],
@@ -9603,7 +9534,7 @@
 
 																			}
  ],
-																		"originid" : "pat-195"
+																		"originid" : "pat-78"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 398.5, 103.0, 22.0 ],
@@ -9969,7 +9900,7 @@
 
 																			}
  ],
-																		"originid" : "pat-197"
+																		"originid" : "pat-80"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 398.5, 116.0, 22.0 ],
@@ -10183,7 +10114,7 @@
 
 																			}
  ],
-																		"originid" : "pat-199"
+																		"originid" : "pat-82"
 																	}
 ,
 																	"patching_rect" : [ 155.0, 398.5, 103.0, 22.0 ],
@@ -10464,7 +10395,7 @@
 
 																			}
  ],
-																		"originid" : "pat-201"
+																		"originid" : "pat-84"
 																	}
 ,
 																	"patching_rect" : [ 395.0, 180.0, 134.0, 22.0 ],
@@ -10732,7 +10663,7 @@
 
 																			}
  ],
-																		"originid" : "pat-203"
+																		"originid" : "pat-86"
 																	}
 ,
 																	"patching_rect" : [ 253.0, 180.0, 134.0, 22.0 ],
@@ -11098,7 +11029,7 @@
 
 																			}
  ],
-																		"originid" : "pat-205"
+																		"originid" : "pat-88"
 																	}
 ,
 																	"patching_rect" : [ 24.5, 273.5, 116.0, 22.0 ],
@@ -11312,7 +11243,7 @@
 
 																			}
  ],
-																		"originid" : "pat-207"
+																		"originid" : "pat-90"
 																	}
 ,
 																	"patching_rect" : [ 284.0, 274.5, 103.0, 22.0 ],
@@ -11592,7 +11523,7 @@
 
 															}
  ],
-														"originid" : "pat-193"
+														"originid" : "pat-76"
 													}
 ,
 													"patching_rect" : [ 59.0, 218.0, 125.0, 22.0 ],
@@ -11724,7 +11655,7 @@
 
 											}
  ],
-										"originid" : "pat-175"
+										"originid" : "pat-58"
 									}
 ,
 									"patching_rect" : [ 445.0, 221.0, 151.0, 22.0 ],
@@ -11864,7 +11795,7 @@
 
 							}
  ],
-						"originid" : "pat-171"
+						"originid" : "pat-54"
 					}
 ,
 					"patching_rect" : [ 632.0, 401.0, 162.0, 22.0 ],
@@ -12347,7 +12278,7 @@
 
 															}
  ],
-														"originid" : "pat-213"
+														"originid" : "pat-96"
 													}
 ,
 													"patching_rect" : [ 456.0, 230.0, 367.0, 22.0 ],
@@ -12621,7 +12552,7 @@
 
 															}
  ],
-														"originid" : "pat-217"
+														"originid" : "pat-100"
 													}
 ,
 													"patching_rect" : [ 410.0, 202.0, 367.0, 22.0 ],
@@ -12753,7 +12684,7 @@
 
 											}
  ],
-										"originid" : "pat-211"
+										"originid" : "pat-94"
 									}
 ,
 									"patching_rect" : [ 589.0, 232.0, 107.0, 22.0 ],
@@ -12990,7 +12921,7 @@
 
 							}
  ],
-						"originid" : "pat-209"
+						"originid" : "pat-92"
 					}
 ,
 					"patching_rect" : [ 188.0, 203.0, 172.0, 22.0 ],
@@ -13177,20 +13108,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"source" : [ "obj-9", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"originid" : "pat-6",
 		"parameters" : 		{
@@ -13209,13 +13126,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Rihanna - Shut Up And Drive.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "go.biquad.gendsp",
 				"bootpath" : "~/Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"patcherrelativepath" : "../../Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
