@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-27",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 288.157891988754272, 528.2894686460495, 150.0, 48.0 ],
+					"text" : "waterlogged headphones\n- bass boosted\n- filter on lows and highs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -137,9 +149,33 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ -104.0, 134.0, 1717.0, 823.0 ],
+						"rect" : [ 34.0, 77.0, 1639.0, 802.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1166.950000000000045, 1350.0, 32.0, 22.0 ],
+									"text" : "0.66"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 732.203407287597656, 1422.881389856338501, 74.0, 22.0 ],
+									"text" : "go.biquad.lp"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-19",
 									"maxclass" : "newobj",
@@ -548,7 +584,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1381.045795261859894, 352.287592828273773, 150.0, 34.0 ],
+									"patching_rect" : [ 2110.9375, 1034.375, 150.0, 34.0 ],
 									"text" : "find filter that wont blow up if param moves fast"
 								}
 
@@ -597,7 +633,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1222.0, 1023.0, 218.0, 22.0 ],
+									"patching_rect" : [ 1437.5, 600.0, 218.0, 22.0 ],
 									"text" : "param @name debug @min 0 @max 1"
 								}
 
@@ -633,21 +669,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 305.0, 1271.0, 117.0, 22.0 ],
+									"patching_rect" : [ 1154.237315654754639, 1249.152572154998779, 117.0, 22.0 ],
 									"text" : "scale 0 1 20000 500"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.996078431372549, 1.0, 0.262745098039216, 1.0 ],
-									"id" : "obj-41",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1248.0, 812.0, 170.0, 22.0 ],
-									"text" : "param @name debug @min 0"
 								}
 
 							}
@@ -718,7 +741,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1053.940000000000055, 510.0, 46.0, 22.0 ],
-									"text" : "< -0.75"
+									"text" : "< -0.85"
 								}
 
 							}
@@ -730,7 +753,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 979.73859304189682, 510.0, 42.0, 22.0 ],
-									"text" : "> 0.75"
+									"text" : "> 0.85"
 								}
 
 							}
@@ -754,7 +777,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 968.627481579780579, 328.758180320262909, 23.0, 22.0 ],
-									"text" : "* 5"
+									"text" : "* 3"
 								}
 
 							}
@@ -5919,16 +5942,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"order" : 1,
-									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-28", 0 ],
-									"order" : 0,
+									"destination" : [ "obj-39", 0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -6133,6 +6147,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"order" : 1,
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"order" : 0,
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"order" : 0,
 									"source" : [ "obj-4", 0 ]
@@ -6149,16 +6179,21 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"order" : 1,
-									"source" : [ "obj-48", 0 ]
+									"destination" : [ "obj-39", 2 ],
+									"source" : [ "obj-40", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-28", 0 ],
-									"order" : 0,
+									"destination" : [ "obj-39", 1 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -6318,12 +6353,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 6,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 360.5, 150.0, 103.0 ],
-					"text" : "TO DO LIST\n\nBITCRUSHER!!!!!!\nREVERBER!!!!!\nSOUND CUTTER OFFER\nSOUND LOOPER!\n"
+					"patching_rect" : [ 188.157892942428589, 360.5, 301.315786600112915, 131.0 ],
+					"text" : "TO DO LIST\n\nBITCRUSHER!!!!!!\nREVERBER!!!!!\nSOUND CUTTER OFFER\nSOUND LOOPER!\nBASS BOOSTER/WATERLOGGED EFFECT\nSTATIC CRACKLY EFFECT\n"
 				}
 
 			}
@@ -13178,6 +13213,20 @@
 				"bootpath" : "~/Downloads",
 				"patcherrelativepath" : "../../../Downloads",
 				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "go.biquad.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"patcherrelativepath" : "../../Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "go.biquad.lp.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"patcherrelativepath" : "../../Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
