@@ -1,2 +1,4 @@
-# test
-lorum ipsum dolor
+# DEVLOG
+## week x
+lorum ipsum dolor sit amet
+
